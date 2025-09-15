@@ -1,0 +1,104 @@
+/**** Importation des polices ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libertinus+Keyboard&display=swap');
+
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 4s cubic-bezier(0, 1.5, 0.3, 1);
+}
+
+/**** body ****/
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(https://cssanimation.rocks/images/random/space2.jpg) repeat center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+/**** main ****/
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/**** section earth__container ****/
+
+.earth__container {
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+}
+
+.earth__img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 12em 1em rgba(110, 140, 200, 0.69);
+}
+
+.earth__infos {
+    background-color: transparent;
+    border-radius: 1em;
+    color: #ffffff;
+    opacity: 0;
+    padding: 1em;
+    transform: scale(0.8);
+    width: 400px;
+    transform-origin: 0 0;
+}
+
+.earth__infos__title {
+    margin: 0 0 1em;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: "Libertinus Keyboard", system-ui;
+}
+
+.earth__infos__list {
+    padding-inline: 6px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.earth__infos__list__item {
+    padding: 3px;
+}
+
+.earth__container:hover .earth__img,
+.earth__container.active .earth__img {
+    transform: translateX(-75px) translateY(-75px) scale(0.5);
+}
+
+.earth__container:hover .earth__infos,
+.earth__container.active .earth__infos {
+    opacity: 1;
+    transform: scale(1);
+}
