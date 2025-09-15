@@ -89,7 +89,8 @@ body::before {
 }
 
 .earth__infos__list__item {
-    padding: 3px;
+    padding: 5px;
+    line-height: 1.4;
 }
 
 .earth__container:hover .earth__img,
@@ -101,4 +102,26 @@ body::before {
 .earth__container.active .earth__infos {
     opacity: 1;
     transform: scale(1);
+}
+
+/**** Responsive design ****/
+
+@media screen and (max-width: 768px) {
+    .earth__infos {
+        width: 350px;
+    }
+
+    .earth__infos__title {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .earth__infos {
+        width: 250px;
+    }
+
+    .earth__infos__title {
+        text-align: center;
+    }
 }
