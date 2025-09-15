@@ -6,7 +6,7 @@ Création d'un effet au survol de la planète Terre en HTML5 et CSS3.
 
 ## Démonstration
 
-Lien vers le projet : https://aperbet56.github.io/effet_au_survol_de_la-planete/
+Lien vers le projet : https://aperbet56.github.io/effet_au_survol_de_la_planete/
 
 ## Projet développé avec
 
