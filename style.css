@@ -62,7 +62,8 @@ body::before {
     opacity: 0;
     padding: 1em;
     transform: scale(0.8);
-    width: 400px;
+    /* width: 400px;*/
+    max-width: 400px;
     transform-origin: 0 0;
 }
 
@@ -96,7 +97,7 @@ body::before {
 
 /**** Responsive design ****/
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     .earth__infos {
         width: 350px;
     }
@@ -113,5 +114,11 @@ body::before {
 
     .earth__infos__title {
         text-align: center;
+    }
+}*/
+
+@media screen and (max-width: 572px) {
+    .earth__infos__title {
+        font-size: 24px;
     }
 }
