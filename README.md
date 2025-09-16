@@ -1,5 +1,9 @@
 ## EFFET AU SURVOL DE LA PLANETE TERRE (PLANET HOVER EFFECT) 🌍
 
+![Design preview for the project](.img/banner.png)
+
+![Design preview for the project](.img/banner-1.png)
+
 ## Le challenge
 
 Création d'un effet au survol de la planète Terre en HTML5 et CSS3.
