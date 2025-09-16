@@ -1,8 +1,8 @@
 ## EFFET AU SURVOL DE LA PLANETE TERRE (PLANET HOVER EFFECT) 🌍
 
-![Design preview for the project](.img/banner.png)
+![Design preview for the project](./img/banner.png)
 
-![Design preview for the project](.img/banner-1.png)
+![Design preview for the project](./img/banner-1.png)
 
 ## Le challenge
 
